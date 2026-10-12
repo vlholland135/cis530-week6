@@ -1,0 +1,7 @@
+package edu.bellevue.cis530.week6.exception;
+
+public class ApiClientException extends RuntimeException {
+    public ApiClientException(String message) {
+        super(message);
+    }
+}
